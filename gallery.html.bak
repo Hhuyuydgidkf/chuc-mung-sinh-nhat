@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/png" href="./img/CILKGax.png" />
+        <!-- Tiêu đề của trang ảnh kĩ niệm -->
+        <title>Ảnh kĩ niệm</title>
+        <link rel="stylesheet" href="./css/gallery.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="buttons">
+            <a href="index.html" class="btn btn-bir">Sinh nhật</a>
+            <a href="timeline.html" class="btn btn-timeline">Dòng thời gian</a>
+            <a href="gallery.html" class="btn btn-gallery">Ảnh kĩ niệm</a>
+        </div>
+
+        <!-- 6. Thay tất cả bằng hình ảnh của bạn -->
+        <div class="gallery" id="gallery">
+            <div class="gallery-item">
+                <div class="content"><img src="./img/9a12c5fa6eb0a5eefca1.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/53bc272d8a6741391876.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/88ba21ff8cb547eb1ea4.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/721ba8a200e8cbb692f9.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/18999a1d3357f809a146.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/fa50dfe175abbef5e7ba.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/30c59f66392cf272ab3d.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/16knntwapjndie4nu9huqi9ha.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/7a9gx3hqnlo801to2lrigsn4m.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/6h3tby9qz7awf5gb3p5yvoluk.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/5gm9l4ewyvzdjwpkzpe1drp08.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/4pe3mbebb9w6wwjzctbfpmv18.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/4lrkrvqqiomt8tpfgi829fid7.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/3nvuavgakvm7qbhwyfn0sr8go.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/3j4rj9ifpxuqd603hav08s47o.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/3bh4ppuql2azpmhjojxjdt43a.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/ljtnskcmamfwburtwqelvzil.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/b512aa2f6b65a03bf974.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/9ab0f99903d3c88d91c2.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/0324ed972cdde783becc.jpg" alt="" /></div>
+            </div>
+            <div class="gallery-item">
+                <div class="content"><img src="./img/4d6ca41b6451af0ff640.jpg" alt="" /></div>
+            </div>
+            
+        </div>
+        <!-- Phần nhạc -->
+        <audio id="player" autoplay loop>
+            <source src="./music/music.mp3" type="audio/mp3" />
+        </audio>
+    </body>
+
+    <script src="./js/gallery.js"></script>
+</html>
